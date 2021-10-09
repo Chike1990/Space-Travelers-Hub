@@ -36,6 +36,10 @@ a {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -69,4 +73,26 @@ button {
   background-color: #fff;
   color: #46769e;
   border: 1px solid #46769e;
+}
+
+.app-btn-danger {
+  background-color: #fff;
+  color: #9e2f2f;
+  border: 1px solid #9e2f2f;
+}
+
+.badge {
+  color: #fff;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0 5px;
+}
+
+.badge--primary {
+  background-color: #68c9ca;
+}
+
+.badge--secondary {
+  background-color: #808080;
+  color: #fff;
 }

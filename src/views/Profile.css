@@ -1,0 +1,16 @@
+.Profile {
+  margin-top: 3rem;
+}
+
+.Profile__left, .Profile__right {
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.Profile p {
+  padding: 12px 8px;
+}
+
+.Profile p:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}

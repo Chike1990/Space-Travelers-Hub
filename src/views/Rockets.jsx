@@ -16,7 +16,7 @@ const Rockets = () => {
       .then(response => {
         const { data } = response;
         console.log(data)
-        const rockets = data.map(rocket => ({ id: rocket.id, rocket_name: rocket.rocket_name, description: rocket.description, flickr_images: rocket.flickr_images }))
+        const rockets = data.map(rocket => ({ id: rocket.id, rocket_name: rocket.rocket_name, description: rocket.description, flickr_images: rocket.flickr_images, reserved: false }))
         dispatch(setRockets(rockets))
       })
       .catch(error => console.log(error))
