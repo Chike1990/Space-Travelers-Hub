@@ -1,19 +1,19 @@
-import { combineReducers } from "redux";
-import { persistReducer } from "redux-persist";
-import storage from "redux-persist/lib/storage";
+import { combineReducers } from 'redux';
+import { persistReducer } from 'redux-persist';
+import storage from 'redux-persist/lib/storage';
 
-import rocketsReducer from "./rockets/rockets-reducer"
-import missionsReducer from "./missions/missions-reducer"
+import rocketsReducer from './rockets/rockets-reducer';
+import missionsReducer from './missions/missions-reducer';
 
 const persistConfig = {
-  key: "root",
+  key: 'root',
   storage,
-  whitelist: ["rockets", "missions"]
-}
+  whitelist: ['rockets', 'missions'],
+};
 
 const rootReducer = combineReducers({
   rockets: rocketsReducer,
-  missions: missionsReducer
+  missions: missionsReducer,
 });
 
 export default persistReducer(persistConfig, rootReducer);

@@ -2,7 +2,8 @@
   margin-top: 3rem;
 }
 
-.Profile__left, .Profile__right {
+.Profile__left,
+.Profile__right {
   border: 1px solid #ccc;
   width: 100%;
 }
