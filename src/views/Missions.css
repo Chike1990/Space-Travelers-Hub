@@ -1,0 +1,42 @@
+.Missions {
+  padding: 3rem 3rem;
+}
+
+.Missions__table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.Missions__table thead {
+  border-bottom: 1px solid #ccc;
+  height: 30px;
+}
+
+.Missions__table td, .Missions__table th {
+  border-right: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.Missions__table tr:nth-child(even){background-color: #f2f2f2;}
+
+.Missions__table tr:hover {background-color: #ddd;}
+
+.Missions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+/* tr, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: inline-block;
+} */
+
+.Missions__name {
+  width: 10%;
+}
+
+.Missions__description {
+  width: 60%;
+}
