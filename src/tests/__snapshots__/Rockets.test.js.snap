@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rockets component Use Jest snapshots to test the Rockets component renders Rockets component as expected 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="m-2 row flex-row align-items-center p-4 card bg-ligh text-dark"
+    >
+      <div
+        class="col-sm-12 col-md-4 col-lg-3 text-center "
+      >
+        <img
+          class="card-img-left"
+          src="https://imgur.com/DaCfMsj.jpg"
+          style="width: 200px; height: 200px; object-fit: cover;"
+        />
+      </div>
+      <div
+        class="col-sm-12 col-md-6 col-lg-8 d-flex flex-column card-content pt-sm-3 pt-md-0"
+      >
+        <div
+          class="d-flex"
+        >
+          <h1
+            class="rocket-heading d-inline-flex"
+          >
+            Falcon 1
+          </h1>
+          <span
+            class="bg-i"
+          />
+        </div>
+        <div
+          class="d-flex flex-column align-items-center justify-content-center card-body"
+        >
+          <p>
+            The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.
+          </p>
+        </div>
+        <button
+          class="btn btn-primary"
+          style="width: 180px;"
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+    <div
+      class="m-2 row flex-row align-items-center p-4 card bg-ligh text-dark"
+    >
+      <div
+        class="col-sm-12 col-md-4 col-lg-3 text-center "
+      >
+        <img
+          class="card-img-left"
+          src="https://farm1.staticflickr.com/929/28787338307_3453a11a77_b.jpg"
+          style="width: 200px; height: 200px; object-fit: cover;"
+        />
+      </div>
+      <div
+        class="col-sm-12 col-md-6 col-lg-8 d-flex flex-column card-content pt-sm-3 pt-md-0"
+      >
+        <div
+          class="d-flex"
+        >
+          <h1
+            class="rocket-heading d-inline-flex"
+          >
+            Falcon 9
+          </h1>
+          <span
+            class="bg-i"
+          />
+        </div>
+        <div
+          class="d-flex flex-column align-items-center justify-content-center card-body"
+        >
+          <p>
+            Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.
+          </p>
+        </div>
+        <button
+          class="btn btn-primary"
+          style="width: 180px;"
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+    <div
+      class="m-2 row flex-row align-items-center p-4 card bg-ligh text-dark"
+    >
+      <div
+        class="col-sm-12 col-md-4 col-lg-3 text-center "
+      >
+        <img
+          class="card-img-left"
+          src="https://farm5.staticflickr.com/4599/38583829295_581f34dd84_b.jpg"
+          style="width: 200px; height: 200px; object-fit: cover;"
+        />
+      </div>
+      <div
+        class="col-sm-12 col-md-6 col-lg-8 d-flex flex-column card-content pt-sm-3 pt-md-0"
+      >
+        <div
+          class="d-flex"
+        >
+          <h1
+            class="rocket-heading d-inline-flex"
+          >
+            Falcon Heavy
+          </h1>
+          <span
+            class="bg-i"
+          />
+        </div>
+        <div
+          class="d-flex flex-column align-items-center justify-content-center card-body"
+        >
+          <p>
+            With the ability to lift into orbit over 54 metric tons (119,000 lb)--a mass equivalent to a 737 jetliner loaded with passengers, crew, luggage and fuel--Falcon Heavy can lift more than twice the payload of the next closest operational vehicle, the Delta IV Heavy, at one-third the cost.
+          </p>
+        </div>
+        <button
+          class="btn btn-primary"
+          style="width: 180px;"
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+    <div
+      class="m-2 row flex-row align-items-center p-4 card bg-ligh text-dark"
+    >
+      <div
+        class="col-sm-12 col-md-4 col-lg-3 text-center "
+      >
+        <img
+          class="card-img-left"
+          src="https://live.staticflickr.com/65535/48954138962_ee541e6755_b.jpg"
+          style="width: 200px; height: 200px; object-fit: cover;"
+        />
+      </div>
+      <div
+        class="col-sm-12 col-md-6 col-lg-8 d-flex flex-column card-content pt-sm-3 pt-md-0"
+      >
+        <div
+          class="d-flex"
+        >
+          <h1
+            class="rocket-heading d-inline-flex"
+          >
+            Starship
+          </h1>
+          <span
+            class="bg-i"
+          />
+        </div>
+        <div
+          class="d-flex flex-column align-items-center justify-content-center card-body"
+        >
+          <p>
+            Starship and Super Heavy Rocket represent a fully reusable transportation system designed to service all Earth orbit needs as well as the Moon and Mars. This two-stage vehicle — composed of the Super Heavy rocket (booster) and Starship (ship) — will eventually replace Falcon 9, Falcon Heavy and Dragon.
+          </p>
+        </div>
+        <button
+          class="btn btn-primary"
+          style="width: 180px;"
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
