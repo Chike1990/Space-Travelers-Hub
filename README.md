@@ -34,9 +34,6 @@ $ cd dist
 - while `$ npm run build` is used to compile the aplication files.</small>
 </details>
 
-### Live Server
-Optionally, you can run the application [here]() or [here]().
-
 ## Author
 
 👤 Chibuike Uzoechina

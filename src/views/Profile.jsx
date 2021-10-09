@@ -12,7 +12,7 @@ const Profile = () => {
         <h2>My Missions</h2>
         <div className="Profile__left">
           {
-            missions.map(({mission_name, reserved}) => reserved && (<p>{ mission_name }</p>))
+            missions.filter(({reserved}) => reserved === true).map(({mission_name}) => (<p>{ mission_name }</p>))
           }
         </div>
       </div>
@@ -20,7 +20,7 @@ const Profile = () => {
         <h2>My Rockets</h2>
         <div className="Profile__right">
           {
-            rockets.map(({rocket_name, reserved}) => reserved && (<p>{ rocket_name }</p>))
+            rockets.filter(({reserved}) => reserved === true).map(({rocket_name}) => (<p>{ rocket_name }</p>))
           }
         </div>
       </div>

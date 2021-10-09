@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchMissions } from "../services/missionsService";
+import fetchMissions from "../services/missionsService";
 import { setMissions } from "../redux/missions/missions-actions";
 import { joinMission } from "../redux/missions/missions-actions";
 

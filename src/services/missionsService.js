@@ -1,8 +1,10 @@
-/* eslint-disable import/prefer-default-export */
 import axios from 'axios';
+import fetchRockets from './rocketsService';
 import { missionsUrl } from './urls';
 
-export const fetchMissions = () => axios({
+const fetchMissions = () => axios({
   method: 'get',
   url: missionsUrl,
 });
+
+export default fetchMissions;
