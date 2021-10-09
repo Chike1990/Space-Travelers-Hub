@@ -1,0 +1,14 @@
+.Rocket {
+  border: 1px solid #ccc;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.Rocket:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.Rocket__image {
+  width: 20rem;
+  margin-right: 1rem;
+}
