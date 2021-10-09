@@ -1,5 +1,4 @@
 import axios from 'axios';
-import fetchRockets from './rocketsService';
 import { missionsUrl } from './urls';
 
 const fetchMissions = () => axios({

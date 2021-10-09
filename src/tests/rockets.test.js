@@ -1,10 +1,10 @@
-import { reserveRocket, setRockets } from '../redux/rockets/rockets-actions';
-import rocketsReducer from "../redux/rockets/rockets-reducer"
+// import { reserveRocket, setRockets } from '../redux/rockets/rockets-actions';
+import rocketsReducer from '../redux/rockets/rockets-reducer';
 
 describe('Unit tests for redux/rockets', () => {
   jest.mock('../redux/rockets/rockets-actions');
 
-  const SET_ROCKETS = 'SET_ROCKETS'
+  const SET_ROCKETS = 'SET_ROCKETS';
   const RESERVE_ROCKET = 'RESERVE_ROCKET';
 
   const actionSetMock = {
@@ -12,12 +12,14 @@ describe('Unit tests for redux/rockets', () => {
     state: [{
       id: 'rocket1',
       name: 'Rocket 1',
-      reserved: false
+      reserved: false,
     }],
   };
   describe('reducers', () => {
     it('returns the correct state for SET_ROCKETS action', () => {
-      expect(rocketsReducer([], { type: SET_ROCKETS, payload: actionSetMock })).toEqual(actionSetMock);
+      expect(rocketsReducer([], {
+        type: SET_ROCKETS, payload: actionSetMock,
+      })).toEqual(actionSetMock);
     });
     it('returns the correct state for RESERVE_ROCKET action', () => {
       const expectedOutputState = [{

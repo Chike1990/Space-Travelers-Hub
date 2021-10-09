@@ -1,8 +1,4 @@
-import {
-  setMissions,
-  joinMission
-} from '../redux/missions/missions-actions';
-import missionsReducer from "../redux/missions/missions-reducer"
+import missionsReducer from '../redux/missions/missions-reducer';
 
 describe('Unit tests for missions', () => {
   jest.mock('../redux/missions/missions-actions');
@@ -17,13 +13,15 @@ describe('Unit tests for missions', () => {
         mission_id: 'mission1',
         mission_name: 'name',
         description: 'mission1 description',
-        reserved: false
+        reserved: false,
       },
     ],
   };
   describe('reducers', () => {
     it('returns the correct state for SET_MISSIONS action', () => {
-      expect(missionsReducer([], { type: SET_MISSIONS, payload: actionSetMock })).toEqual(actionSetMock);
+      expect(missionsReducer([], {
+        type: SET_MISSIONS, payload: actionSetMock,
+      })).toEqual(actionSetMock.state);
     });
     it('returns the correct state for JOIN MISSION action', () => {
       const expectedOutputState = [
