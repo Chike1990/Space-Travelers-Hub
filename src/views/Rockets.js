@@ -12,11 +12,9 @@ const Rockets = () => {
   const rockets = useSelector((state) => state.rockets);
 
   useEffect(() => {
-    console.log(rockets);
     fetchRockets()
       .then((response) => {
         const { data } = response;
-        console.log(data);
         const rockets = data.map((rocket) => ({
           id: rocket.id,
           rocketName: rocket.rocket_name,
