@@ -7,7 +7,7 @@ const missionsReducer = (state = INITIAL_STATE, action) => {
     case missionsActionTypes.SET_MISSIONS:
       return state.length ? state : action.payload;
     case missionsActionTypes.JOIN_MISSION:
-      return state.map((mission) => (mission.mission_id === action.payload
+      return state.map((mission) => (mission.missionId === action.payload
         ? { ...mission, reserved: !mission.reserved } : { ...mission }));
     default:
       return state;
