@@ -20,7 +20,6 @@ const Missions = () => {
         }));
         dispatch(setMissions(missions));
       })
-      .catch((error) => console.log(error));
   }, []);
   return (
     <div className="Missions">

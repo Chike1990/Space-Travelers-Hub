@@ -1,4 +1,3 @@
-// import { reserveRocket, setRockets } from '../redux/rockets/rockets-actions';
 import rocketsReducer from '../redux/rockets/rockets-reducer';
 
 describe('Unit tests for redux/rockets', () => {

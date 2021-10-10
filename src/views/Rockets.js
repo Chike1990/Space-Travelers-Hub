@@ -26,7 +26,6 @@ const Rockets = () => {
         }));
         dispatch(setRockets(rockets));
       })
-      .catch((error) => console.log(error));
   }, []);
 
   return (
