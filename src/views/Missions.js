@@ -19,7 +19,7 @@ const Missions = () => {
           reserved: false,
         }));
         dispatch(setMissions(missions));
-      })
+      });
   }, []);
   return (
     <div className="Missions">

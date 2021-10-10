@@ -25,7 +25,7 @@ const Rockets = () => {
           reserved: false,
         }));
         dispatch(setRockets(rockets));
-      })
+      });
   }, []);
 
   return (
