@@ -1,8 +1,9 @@
-import axios from "axios";
-import { rocketsUrl } from "./urls";
+import axios from 'axios';
+import { rocketsUrl } from './urls';
 
-export const fetchRockets = () =>
-  axios({
-    method: "get",
-    url: rocketsUrl
-  })
+const fetchRockets = () => axios({
+  method: 'get',
+  url: rocketsUrl,
+});
+
+export default fetchRockets;
